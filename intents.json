@@ -1,0 +1,70 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "signup",
+        "patterns": ["sign", "signup", "sign up", "sign-up", "create account"],
+        "responses": ["You can sign up using Google or Facebook account",
+           "Here is the link for signup!"]
+      },
+      {
+        "tag": "categories",
+        "patterns": ["categories", "options"],
+        "responses": ["We have five categories for your foods in the fridge",
+           "The categories are fruits, protiens, etc"]
+      },
+      {
+        "tag": "introduction",
+        "patterns": ["what is", "ByteMe", "function"],
+        "responses": ["We are here to help organize your fridge!!",
+           "We can make your fridge smart!!"]
+      },
+      {
+        "tag": "pay",
+        "patterns": ["free", "pay", "fee"],
+        "responses": ["Yes it is free",
+           "Yes, Yes but you can donate to support the cause of healthy food"]
+      },
+      {
+        "tag": "professor",
+        "patterns": ["teacher", "professor", "dr"],
+        "responses": ["Yes it is free",
+           "Sandeep my dudeee give us A"]
+      },
+      {
+        "tag": "group",
+        "patterns": ["team", "best", "group"],
+        "responses": [
+           "ByteMe is the best team!!"]
+      }
+    ]
+  }
