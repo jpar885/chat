@@ -33,8 +33,8 @@
       {
         "tag": "signup",
         "patterns": ["sign", "signup", "sign up", "sign-up", "create account"],
-        "responses": ["You can sign up using Google or Facebook account",
-           "Here is the link for signup!"]
+        "responses": ["You can sign up by going to sign up page",
+           "Here is the link for signup! : https://fridge-final.herokuapp.com/members/add"]
       },
       {
         "tag": "categories",
@@ -57,7 +57,7 @@
       {
         "tag": "professor",
         "patterns": ["teacher", "professor", "dr"],
-        "responses": ["Yes it is free",
+        "responses": ["Our professor is the best",
            "Sandeep my dudeee give us A"]
       },
       {
