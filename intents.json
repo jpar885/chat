@@ -60,6 +60,12 @@
         "responses": ["Our professor is the best",
            "Sandeep my dudeee give us A"]
       },
+        {
+        "tag": "inside",
+        "patterns": ["do I have", "ingrediant", "items", "item"],
+        "responses": ["You can check your items at Item Management page",
+           "Here is the link for Item Management! : https://fridge-final.herokuapp.com/items"]
+      },
       {
         "tag": "group",
         "patterns": ["team", "best", "group"],
